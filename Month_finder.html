@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        display: grid;
+        place-content: center;
+        color: #fff;
+        height: 100vh;
+      }
+
+      h1 {
+        font-size: 10rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="hello"></h1>
+
+    <script>
+      var month = prompt("Enter Month Number");
+
+      switch (true) {
+        case month == 1:
+          {
+            document.getElementById("hello").innerHTML = "January";
+          }
+          break;
+        case month == 2:
+          {
+            document.getElementById("hello").innerHTML = "February";
+          }
+          break;
+        case month == 3:
+          {
+            document.getElementById("hello").innerHTML = "March";
+          }
+          break;
+        case month == 4:
+          {
+            document.getElementById("hello").innerHTML = "April";
+          }
+          break;
+        case month == 5:
+          {
+            document.getElementById("hello").innerHTML = "May";
+          }
+          break;
+        case month == 6:
+          {
+            document.getElementById("hello").innerHTML = "June";
+          }
+          break;
+        case month == 7:
+          {
+            document.getElementById("hello").innerHTML = "July";
+          }
+          break;
+        case month == 8:
+          {
+            document.getElementById("hello").innerHTML = "August";
+          }
+          break;
+        case month == 9:
+          {
+            document.getElementById("hello").innerHTML = "September";
+          }
+          break;
+        case month == 10:
+          {
+            document.getElementById("hello").innerHTML = "October";
+          }
+          break;
+        case month == 11:
+          {
+            document.getElementById("hello").innerHTML = "November";
+          }
+          break;
+        case month == 12:
+          {
+            document.getElementById("hello").innerHTML = "December";
+          }
+          break;
+
+        default:
+          document.getElementById("hello").innerHTML =
+            "Please Enter a Valid Month";
+          break;
+      }
+      console.log(month);
+    </script>
+  </body>
+</html>
